@@ -1,0 +1,60 @@
+body {
+    background-color: #2B4865;
+}
+
+#divbox{
+    background-color: #002b5b;
+}
+
+#forms{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    padding: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: aliceblue;
+}
+
+#weather-box{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    height: 500px;
+    width:500px;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #7490b1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    text-align: center;
+}
+
+#welcome{
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin: auto;
+    text-align: center;
+   
+}
+
+#img{
+    display: flex;
+    margin: auto;
+    height: 200px;
+    width: 200px;
+    border-radius: 30%;
+}
+
+#welc{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: antiquewhite ;
+   
+}
